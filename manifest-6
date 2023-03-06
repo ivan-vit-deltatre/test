@@ -1,6 +1,10 @@
 <MPD type="dynamic" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT1.000S" timeShiftBufferDepth="PT56.000S" minimumUpdatePeriod="PT10.000S" publishTime="2023-03-06T09:30:10Z" availabilityStartTime="2023-03-06T07:01:30Z">
 <Period start="PT0S" id="1">
 <AdaptationSet id="1" group="1" bitstreamSwitching="false" segmentAlignment="true" contentType="video" mimeType="video/mp4" codecs="avc1.64001F" maxWidth="1280" maxHeight="720" startWithSAP="1">
+<InbandEventStream schemeIdUri="urn:mpeg:dash:event:2012" value="1"/><ProducerReferenceTime id="2580156833900000" type="0" wallClockTime="2023-03-06T07:01:30Z" presentationTime="2580156833900000"/>
+<SegmentTemplate timescale="10000000" presentationTimeOffset="2580156833900000" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)">
+<SegmentTimeline><S t="2580156833900000" d="20020000" r="4454"/></SegmentTimeline>
+</SegmentTemplate>
 <Representation id="1_V_video_14759481473095519504" bandwidth="6000000" width="1280" height="720"/>
 <Representation id="1_V_video_15517948687693901110" bandwidth="4749952" width="1280" height="720"/>
 <Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
