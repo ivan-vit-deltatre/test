@@ -3,7 +3,15 @@
 <AdaptationSet segmentAlignment="true" mimeType="video/mp4" maxWidth="1280" maxHeight="720" startWithSAP="1">
 <SegmentTemplate timescale="10000000" presentationTimeOffset="2580156833900000" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)">
 </SegmentTemplate>
+<Representation id="1_V_video_15517948687693901110" bandwidth="4749952" width="1280" height="720"/>
 <Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
+<Representation id="1_V_video_16981495139092747609" bandwidth="2200000" codecs="avc1.4D401F" width="1024" height="576"/>
+<Representation id="1_V_video_14851006325304870635" bandwidth="1400000" codecs="avc1.4D401E" width="768" height="432"/>
+<Representation id="1_V_video_15797029007959740831" bandwidth="949952" codecs="avc1.4D401E" width="640" height="360"/>
+<Representation id="1_V_video_10384369079951789487" bandwidth="600000" codecs="avc1.4D4015" width="512" height="288"/>
+<Representation id="1_V_video_6140004908920393176" bandwidth="400000" codecs="avc1.4D400D" width="384" height="216"/>
+<Representation id="1_V_video_17917517102610242332" bandwidth="249984" codecs="avc1.4D400D" width="384" height="216"/>
+<Representation id="1_V_video_3750956353252827751" bandwidth="149952" codecs="avc1.4D400C" width="256" height="144"/>
 </AdaptationSet>
 </Period>
 </MPD>
