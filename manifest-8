@@ -3,7 +3,6 @@
 <AdaptationSet id="1" group="1" profiles="ccff" bitstreamSwitching="true" segmentAlignment="true" contentType="video" mimeType="video/mp4" codecs="avc1.64001F" maxWidth="1280" maxHeight="720" startWithSAP="1">
 <ProducerReferenceTime id="2580156833900000" type="0" wallClockTime="2023-03-06T07:01:30Z" presentationTime="2580156833900000"/>
 <SegmentTemplate timescale="10000000" presentationTimeOffset="2580156833900000" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)">
-<SegmentTimeline><S t="2580156833900000" d="20020000" r="4454"/></SegmentTimeline>
 </SegmentTemplate>
 <Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
 </AdaptationSet>
