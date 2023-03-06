@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="dynamic"
+	minimumUpdatePeriod="PT3S"
+	suggestedPresentationDelay="PT3S"
+	availabilityStartTime="2017-10-04T03:31:48"
+	publishTime="2017-10-04T22:28:30"
+	timeShiftBufferDepth="PT15.8S"
+	minBufferTime="PT3.9S">
+	<ProgramInformation>
+		<Title>RTSP Session</Title>
+	</ProgramInformation>
+	<Period start="PT0.0S">
+		<AdaptationSet contentType="video" segmentAlignment="true" bitstreamSwitching="true" frameRate="15/2">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.4d0020" bandwidth="2000000" width="1280" height="960" frameRate="15/2">
+				<SegmentTemplate timescale="15360" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="22732">
+					<SegmentTimeline>
+						<S t="1047462831" d="30639" />
+						<S d="61438" />
+						<S d="30709" />
+						<S d="61457" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
