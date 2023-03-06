@@ -1,6 +1,6 @@
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" publishTime="2023-03-06T09:30:10Z" minimumUpdatePeriod="PT0S" timeShiftBufferDepth="PT9H58M57S" availabilityStartTime="2023-03-06T07:01:30Z" minBufferTime="PT3S">
 <Period start="PT0S" id="1">
-<AdaptationSet segmentAlignment="true" mimeType="video/mp4" startWithSAP="1">
+<AdaptationSet segmentAlignment="true" mimeType="video/mp4" maxWidth="1280" maxHeight="720" startWithSAP="1">
 <SegmentTemplate timescale="10000000" presentationTimeOffset="2580156833900000" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)">
 </SegmentTemplate>
 <Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
