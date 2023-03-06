@@ -6,8 +6,6 @@
 <SegmentTemplate timescale="10000000" presentationTimeOffset="2580156833900000" media="QualityLevels($Bandwidth$)/Fragments(video=$Time$,format=mpd-time-csf)" initialization="QualityLevels($Bandwidth$)/Fragments(video=i,format=mpd-time-csf)">
 <SegmentTimeline><S t="2580156833900000" d="20020000" r="4454"/></SegmentTimeline>
 </SegmentTemplate>
-<Representation id="1_V_video_14759481473095519504" bandwidth="6000000" width="1280" height="720"/>
-<Representation id="1_V_video_15517948687693901110" bandwidth="4749952" width="1280" height="720"/>
 <Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
 <Representation id="1_V_video_16981495139092747609" bandwidth="2200000" codecs="avc1.4D401F" width="1024" height="576"/>
 <Representation id="1_V_video_14851006325304870635" bandwidth="1400000" codecs="avc1.4D401E" width="768" height="432"/>
