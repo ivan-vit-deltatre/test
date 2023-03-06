@@ -1,0 +1,19 @@
+<MPD type="dynamic" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT1.000S" timeShiftBufferDepth="PT56.000S" minimumUpdatePeriod="PT10.000S" publishTime="2023-03-06T09:30:10Z" availabilityStartTime="2023-03-06T07:01:30Z">
+<Period start="PT0S" id="1">
+<AdaptationSet id="1" group="1" bitstreamSwitching="false" segmentAlignment="true" contentType="video" mimeType="video/mp4" codecs="avc1.64001F" maxWidth="1280" maxHeight="720" startWithSAP="1">
+<Representation id="1_V_video_14759481473095519504" bandwidth="6000000" width="1280" height="720"/>
+<Representation id="1_V_video_15517948687693901110" bandwidth="4749952" width="1280" height="720"/>
+<Representation id="1_V_video_17090713503055598136" bandwidth="3449984" codecs="avc1.4D401F" width="1280" height="720"/>
+<Representation id="1_V_video_16981495139092747609" bandwidth="2200000" codecs="avc1.4D401F" width="1024" height="576"/>
+<Representation id="1_V_video_14851006325304870635" bandwidth="1400000" codecs="avc1.4D401E" width="768" height="432"/>
+<Representation id="1_V_video_15797029007959740831" bandwidth="949952" codecs="avc1.4D401E" width="640" height="360"/>
+<Representation id="1_V_video_10384369079951789487" bandwidth="600000" codecs="avc1.4D4015" width="512" height="288"/>
+<Representation id="1_V_video_6140004908920393176" bandwidth="400000" codecs="avc1.4D400D" width="384" height="216"/>
+<Representation id="1_V_video_17917517102610242332" bandwidth="249984" codecs="avc1.4D400D" width="384" height="216"/>
+<Representation id="1_V_video_3750956353252827751" bandwidth="149952" codecs="avc1.4D400C" width="256" height="144"/>
+</AdaptationSet>
+<AdaptationSet id="2" group="5" profiles="ccff" bitstreamSwitching="false" segmentAlignment="true" contentType="audio" mimeType="audio/mp4" codecs="mp4a.40.2" lang="en">
+<Representation id="5_A_ambient_9125670592623055209" bandwidth="96000" audioSamplingRate="48000"/>
+</AdaptationSet>
+</Period>
+</MPD>
